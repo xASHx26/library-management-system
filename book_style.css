@@ -1,0 +1,59 @@
+.error {
+    color: #FF0000;
+}
+.Navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.li:last-child {
+    border-right: none;
+}
+.li a {
+    color: white;
+    text-decoration: none;
+}
+.li:hover {
+    background-color: #111;
+}
+.li:hover:not(.active) {
+    background-color: aliceblue;
+    color: black;
+}
+.si {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.si:last-child {
+    border-right: none;
+}
+.si a {
+    color: white;
+    text-decoration: none;
+}
+.si:hover {
+    background-color: #111;
+}
+.si:hover:not(.active) {
+    background-color: aliceblue;
+    color: black;
+}
